@@ -25,7 +25,7 @@ public class StringHelperTest {
 	
 	@Test
 	public void testAreFirstAndLastTwoCharactersTheSame_True() {
-		assertTrue(helper.areFirstAndLastTwoCharactersTheSame("AB"));
+		assertTrue(helper.areFirstAndLastTwoCharactersTheSame("ABAB"));
 	}
 
 }
